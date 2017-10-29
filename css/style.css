@@ -1,0 +1,135 @@
+body{
+	background: rgb(234, 53, 90) url(../img/main-bg.png);
+	background-size: cover;
+	font: 400 13px/1.2 Arial, sans-serif;
+	font-family: Arial;
+	color:  #797b7f;
+}
+
+/* Layout */
+.ba-container{
+	padding: 30px 30px 58px 30px;
+	max-width: 460px;
+	background-color: #FFF;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	text-decoration: none;
+	color: #ea355a;
+}
+a:hover {
+	text-decoration: underline;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	background-color:  #ea355a;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background-color: rgba(237,59,83,.9);
+	box-shadow: 0px 3px 0px 0px #bd1962;
+}
+
+.ba-button:focus{
+	border: 2px solid #A03565;
+	outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	font-size: 14px;
+	line-height: 1.4;
+	height: 40px;
+	line-height: 40px;
+	border: transparent;
+	padding: 0 8px 0 14px;
+	margin-bottom: 15px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	border: 1px solid #A03565;
+	outline: none;
+}
+textarea {
+
+}
+
+.ba-daily-form__title {
+	color:  #1b1c1d;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+	background: url(../img/sign-up-icon.png) no-repeat 0% 0%;
+	padding-left: 34px;
+	margin-bottom: 12px;
+}
+
+.ba-daily-form__header {
+	margin-bottom: 34px;
+}
+
+.ba-daily-form__row {
+	max-width: 100%;
+}
+
+.ba-daily-form__first-name,
+.ba-daily-form__last-name {
+	max-width: 49%;
+	float: left;
+}
+.ba-daily-form__first-name {
+	margin-right: 14px;
+}
+
+.ba-daily-form__text {
+	letter-spacing: 0.02em;
+	line-height: 1.4;
+}
+
+.ba-daily-form__email input,
+.ba-daily-form__password input{
+	width: 100%;
+}
+
+.ba-daily-form__submit {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 30px;
+	font-size: 18px;
+	width: 100%;
+	margin-bottom: 23px;
+	letter-spacing: 0.04em
+}
+
+.ba-footer__info {
+	font-size: 12px;
+	letter-spacing: 0.01em;
+	line-height: 1.5;
+}
